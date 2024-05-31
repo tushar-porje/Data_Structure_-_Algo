@@ -1,4 +1,4 @@
-package Trees;
+package Trees.depthFirstTraversal;
 
 /*  
         4
@@ -7,9 +7,7 @@ package Trees;
 
 */
 
-// output = 2 3 1 4 6 5 7
-
-public class InorderTraversal {
+public class PostOrderTraversal {
     public static void main(String[] args) {
         Tree root=new Tree(4);
         root.left=new Tree(3);
@@ -28,8 +26,8 @@ public class InorderTraversal {
             return;
         }
         solution(root.left);
-        System.out.println(root.data);
         solution(root.right);
+        System.out.println(root.data);
 
     }
 }

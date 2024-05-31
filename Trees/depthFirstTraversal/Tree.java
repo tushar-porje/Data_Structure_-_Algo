@@ -1,4 +1,4 @@
-package Trees;
+package Trees.depthFirstTraversal;
 
 public class Tree {
     int data;
