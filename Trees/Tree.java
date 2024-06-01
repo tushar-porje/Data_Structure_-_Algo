@@ -1,9 +1,9 @@
-package Trees.depthFirstTraversal;
+package Trees;
 
 public class Tree {
-    int data;
-    Tree left;
-    Tree right;
+    public int data;
+    public Tree left;
+    public Tree right;
     
     public Tree() {
         this.data=-1;

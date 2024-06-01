@@ -1,5 +1,7 @@
 package Trees.depthFirstTraversal;
 
+import Trees.Tree;
+
 /*  
         4
     3       5
