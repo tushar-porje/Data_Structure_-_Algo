@@ -4,8 +4,6 @@ import java.util.Deque;
 import java.util.LinkedList;
 import java.util.Vector;
 
-import org.w3c.dom.Node;
-
 import Trees.Tree;
 
 /*  
