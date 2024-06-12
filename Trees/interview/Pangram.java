@@ -1,7 +1,6 @@
 package Trees.interview;
 
 import java.util.*;
-import java.io.*;
 
 public class Pangram {
     
@@ -10,6 +9,7 @@ public class Pangram {
         Scanner s = new Scanner(System.in); // do not change this
         String inputLine = s.nextLine(); // do not change this
     
+        s.close();
         // you code will be inside this main method
         // to view the output, just print the string
     
